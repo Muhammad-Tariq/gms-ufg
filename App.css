@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    background-color: #f0f0f0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     color: black;
+    border: 1px solid #ccc;
+}
+.leaflet-control-zoom-in {
+    border-bottom: 1px solid #ccc;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+   background-color: #e0e0e0;
+}
+.leaflet-bar {
+  margin-bottom: 10px;
+}
+
+.leaflet-control-custom {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 2px; /* Reduce the padding */
+}
+
+.measure-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0.25rem; /* Add rounded corners */
+  border: none;
+}
+
+.measure-button svg {
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+.measure-button:hover,
+.measure-button.active {
+  background-color: #e0e0e0;
+}
