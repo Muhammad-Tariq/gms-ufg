@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, GeoJSON, ZoomControl, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import nationalData from './components/National.json'; // Import National.json
 import provincialData from './components/Provincial.json';
 import districtData from './components/District.json';
 import tehsilData from './components/Tehsil.json';
-import nationalData from './components/National.json'; // Import National.json
+
 
 const National_CENTER = [30.3753, 69.3451];
 const DEFAULT_ZOOM = 5;
